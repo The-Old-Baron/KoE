@@ -132,7 +132,6 @@ GameObject:
   m_Component:
   - component: {fileID: 175659714}
   - component: {fileID: 175659717}
-  - component: {fileID: 175659716}
   - component: {fileID: 175659715}
   m_Layer: 5
   m_Name: RawImage
@@ -190,25 +189,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &175659716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175659713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25130b18926210748a33e76b8fd6508a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playstationLogo: {fileID: 21300000, guid: cb9aa6fb7a9eb8a44b26ced375bb2ff0, type: 3}
-  nintendoLogo: {fileID: 21300000, guid: 1d1249ee02a809842a6ad8191256814c, type: 3}
-  xboxLogo: {fileID: 21300000, guid: d74503d5c32536f458e7d38c278caa85, type: 3}
-  androidLogo: {fileID: 21300000, guid: fdce168d811b32245b65a0063906e949, type: 3}
-  iosLogo: {fileID: 21300000, guid: faccdc424479d7342bba75c8860bdfce, type: 3}
-  windowsLogo: {fileID: 21300000, guid: a4da7b5aff97be74a84473ca53ff406f, type: 3}
-  <target>k__BackingField: {fileID: 0}
 --- !u!222 &175659717
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -322,7 +302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 756656dcf77f63e48a24a95eb3077c2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <GamePlataform>k__BackingField: 0
 --- !u!1 &1789776382
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +481,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1881018000}
-  - component: {fileID: 1881018001}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -525,18 +503,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1881018001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881017999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2db322fe22fff654691d0bba64b9049a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
